@@ -1,18 +1,20 @@
-DL-TOLMON app
+# DL-TOLMON: Deep Learning Toll Traffic Monitoring System
 
-1. Open terminal in the `app` folder.
-2. Install packages: `pip install -r requirements.txt`
-3. Run API: `uvicorn app:app --reload`
-4. Open `dashboard_live.html` in a browser.
-5. For live integration, connect the dashboard JavaScript to `http://127.0.0.1:8000/predict`.
+Deep learning based toll gate traffic prediction and BI dashboard for efficient urban transportation.
 
-Manual API test:
-POST /predict
-{
-  "G1": 1,
-  "G2": 0,
-  "G3": 1,
-  "G4": 0,
-  "G5": 0,
-  "G6": 0
-}
+## Quick Access
+- Live Dashboard: https://USERNAME.github.io/dl-tolmon-traffic-monitor/
+- Notebook: ./notebook/DL_TOLMON_notebook.ipynb
+- Report: ./report/DL_TOLMON_Report.docx
+- Slides: ./slides/DL_TOLMON_Presentation.pptx
+
+## Project Contents
+- notebook/: Jupyter notebook for preprocessing, modeling, and evaluation
+- report/: final academic report
+- slides/: presentation slides
+- data/: raw and cleaned datasets
+- app/: Python backend source code
+- docs/: dashboard for GitHub Pages
+
+## Topic
+Deep Learning Based Toll Gate Traffic Prediction and Real-Time Decision Support System for Efficient Urban Transportation (Case Study: Jabodetabek Toll Road)
